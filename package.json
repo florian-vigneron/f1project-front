@@ -6,7 +6,7 @@
     "dev": "nuxt dev .app",
     "build": "nuxt build .app",
     "preview": "nuxt start",
-    "start": "node .output/server/index.mjs",
+    "start": "node .app/.output/server/index.mjs",
     "generate": "nuxt generate"
   },
   "devDependencies": {
