@@ -1,0 +1,15 @@
+{
+  "name": "tairo-quickstarter",
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "nuxt": "3.5.0"
+  },
+  "scripts": {
+    "prepare": "nuxt prepare",
+    "dev": "nuxt dev --open",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "clean": "rimraf .nuxt .output node_modules"
+  }
+}
