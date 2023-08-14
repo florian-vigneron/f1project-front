@@ -1,6 +1,6 @@
 <script setup lang="ts">
 definePageMeta({
-  title: 'Formule 2 - Accueil',
+  title: 'F2 - Accueil',
 })
 
 useHead({

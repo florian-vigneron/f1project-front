@@ -79,7 +79,7 @@ const props = withDefaults(
         size="sm"
         weight="medium"
         lead="tight"
-        class="text-muted-700 dark:text-muted-100"
+        class="text-muted-700 dark:text-muted-100 ml-4"
       >
         <span>{{ props.title }}</span>
       </BaseHeading>

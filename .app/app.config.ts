@@ -10,6 +10,7 @@
 
 export default defineAppConfig({
   tairo: {
+    title: 'F1 Project',
     collapse: {
       circularMenu: {
         enabled: true,
@@ -18,9 +19,12 @@ export default defineAppConfig({
             component: 'ThemeToggle',
             props: {
               class: 'ms-auto',
-              disableTransitions: true,
+              disableTransitions: false,
               inverted: true,
             },
+          },
+          {
+            component: 'WhoAreWe',
           },
         ],
       },
@@ -33,9 +37,12 @@ export default defineAppConfig({
             component: 'ThemeToggle',
             props: {
               class: 'ms-auto',
-              disableTransitions: true,
-              inverted: true,
+              disableTransitions: false,
+              inverted: false,
             },
+          },
+          {
+            component: 'WhoAreWe',
           },
         ],
       },
@@ -50,7 +57,18 @@ export default defineAppConfig({
         header: {
           component: 'CollapseNavigationHeader',
         },
+        footer: {
+          component: 'CollapseNavigationFooter',
+        },
         items: [
+          {
+            name: 'Accueil',
+            icon: {
+              name: 'lucide:home',
+              class: 'w-5 h-5',
+            },
+            to: '/',
+          },
           {
             name: 'Formule 1',
             icon: {
@@ -102,6 +120,22 @@ export default defineAppConfig({
             ],
           },
         ],
+      },
+    },
+    panels: [
+      {
+        name: 'activity',
+        position: 'right',
+        component: 'WhoAreWeActivity',
+      },
+    ],
+    error: {
+      logo: {
+        component: 'img',
+        props: {
+          src: '/img/illustrations/404-1.svg',
+          class: 'relative z-20 w-full max-w-lg mx-auto',
+        },
       },
     },
   },

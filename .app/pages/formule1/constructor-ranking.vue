@@ -1,6 +1,6 @@
 <script setup lang="ts">
 definePageMeta({
-  title: 'Formule 1 / Classement constructeurs',
+  title: 'F1 - Classement constructeurs',
 })
 
 useHead({

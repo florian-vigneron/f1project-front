@@ -1,6 +1,6 @@
 <script setup lang="ts">
 definePageMeta({
-  title: 'Formule 1 / Classement pilotes',
+  title: 'F1 - Classement pilotes',
 })
 
 useHead({
@@ -47,7 +47,7 @@ useHead({
                   />
                 </div>
                 <span
-                  class="text-muted-500 dark:text-muted-400 font-sans text-sm"
+                  class="text-muted-500 dark:text-muted-400 font-sans text-sm ml-2"
                 >
                   Red-Bull
                 </span></TableCell
@@ -94,7 +94,7 @@ useHead({
                   />
                 </div>
                 <span
-                  class="text-muted-500 dark:text-muted-400 font-sans text-sm"
+                  class="text-muted-500 dark:text-muted-400 font-sans text-sm ml-2"
                 >
                   Red-Bull
                 </span></TableCell
@@ -147,7 +147,7 @@ useHead({
                   />
                 </div>
                 <span
-                  class="text-muted-500 dark:text-muted-400 font-sans text-sm"
+                  class="text-muted-500 dark:text-muted-400 font-sans text-sm ml-2"
                 >
                   Aston-Martin
                 </span></TableCell

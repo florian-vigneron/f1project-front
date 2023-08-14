@@ -1,6 +1,6 @@
 <script setup lang="ts">
 definePageMeta({
-  title: 'Formule 2 / Les actualités',
+  title: 'F2 - Les actualités',
 })
 
 useHead({

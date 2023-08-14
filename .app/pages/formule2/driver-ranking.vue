@@ -1,6 +1,6 @@
 <script setup lang="ts">
 definePageMeta({
-  title: 'Formule 2 / Classement pilotes',
+  title: 'F2 - Classement pilotes',
 })
 
 useHead({
