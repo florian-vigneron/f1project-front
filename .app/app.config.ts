@@ -92,6 +92,11 @@ export default defineAppConfig({
                 to: '/formule1/constructor-ranking',
                 icon: { name: 'ph:car-profile-duotone', class: 'w-5 h-5' },
               },
+              {
+                name: 'Les pilotes',
+                to: '/formule1/drivers',
+                icon: { name: 'ph:user-square-duotone', class: 'w-5 h-5' },
+              },
             ],
           },
           {
