@@ -6,3 +6,9 @@ nuxt.d.ts
 .output
 .env
 *Zone.Identifier
+.app/public/.DS_Store
+.gitignore
+.gitignore
+.app/public/img/.DS_Store
+.app/public/img/icons/.DS_Store
+.DS_Store

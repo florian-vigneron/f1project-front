@@ -16,6 +16,6 @@ export default defineNuxtConfig({
     /**
      * Uncomment the following line to add the Tairo Layout Sidebar layer
      */
-    '../layers/tairo-layout-sidebar',
+    '../layers/tairo-layout-collapse',
   ],
 })
