@@ -72,7 +72,7 @@ export default defineAppConfig({
           {
             name: 'Formule 1',
             icon: {
-              name: 'ph:number-circle-one-duotone',
+              name: 'simple-icons:f1',
               class: 'w-5 h-5',
             },
             to: '/formule1/',
@@ -85,24 +85,32 @@ export default defineAppConfig({
               {
                 name: 'Classement pilotes',
                 to: '/formule1/driver-ranking',
-                icon: { name: 'ph:user-square-duotone', class: 'w-5 h-5' },
+                icon: {
+                  name: 'game-icons:full-motorcycle-helmet',
+                  class: 'w-5 h-5',
+                },
               },
               {
                 name: 'Classement constructeurs',
                 to: '/formule1/constructor-ranking',
-                icon: { name: 'ph:car-profile-duotone', class: 'w-5 h-5' },
+                icon: { name: 'game-icons:f1-car', class: 'w-5 h-5' },
               },
               {
                 name: 'Les pilotes',
                 to: '/formule1/drivers',
-                icon: { name: 'ph:user-square-duotone', class: 'w-5 h-5' },
+                icon: { name: 'material-symbols:groups', class: 'w-5 h-5' },
+              },
+              {
+                name: 'La saison 2023',
+                to: '/formule1/current-season',
+                icon: { name: 'mdi:go-kart-track', class: 'w-5 h-5' },
               },
             ],
           },
           {
             name: 'Formule 2',
             icon: {
-              name: 'ph:number-circle-two-duotone',
+              name: 'solar:wheel-angle-line-duotone',
               class: 'w-5 h-5',
             },
             to: '/formule2/',
@@ -115,12 +123,15 @@ export default defineAppConfig({
               {
                 name: 'Classement pilotes',
                 to: '/formule2/driver-ranking',
-                icon: { name: 'ph:user-square-duotone', class: 'w-5 h-5' },
+                icon: {
+                  name: 'game-icons:full-motorcycle-helmet',
+                  class: 'w-5 h-5',
+                },
               },
               {
                 name: 'Classement constructeurs',
                 to: '/formule2/constructor-ranking',
-                icon: { name: 'ph:car-profile-duotone', class: 'w-5 h-5' },
+                icon: { name: 'game-icons:f1-car', class: 'w-5 h-5' },
               },
             ],
           },

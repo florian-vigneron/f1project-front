@@ -11,4 +11,10 @@ nuxt.d.ts
 .gitignore
 .app/public/img/.DS_Store
 .app/public/img/icons/.DS_Store
-.DS_Store
+.app/.DS_Store
+.app/assets/.DS_Store
+.app/assets/css/.DS_Store
+.app/components/.DS_Store
+.app/composables/.DS_Store
+.app/public/img/icons/flags/.DS_Store
+.app/public/img/illustrations/.DS_Store

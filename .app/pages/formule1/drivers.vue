@@ -52,16 +52,13 @@ useHead({
                   <div
                     class="absolute bottom-0 px-4 py-3 bg-primary-500/20 w-full"
                   >
-                    <div class="flex">
-                      <h1
-                        class="text-white font-semibold text-7xl w-48 text-center"
+                    <h1 class="text-white font-semibold text-2xl">
+                      <span
+                        class="text-white font-semibold text-5xl w-48 text-center"
+                        >#1</span
                       >
-                        #1
-                      </h1>
-                      <h1 class="text-white font-semibold text-3xl">
-                        Max Verstappen
-                      </h1>
-                    </div>
+                      Max Verstappen
+                    </h1>
                   </div>
                 </div>
               </div>

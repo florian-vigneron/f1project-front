@@ -1,22 +1,20 @@
 <script setup lang="ts">
 definePageMeta({
-  title: 'F1 - Classement constructeurs',
+  title: 'F1 - #1 Barhein',
 })
 
 useHead({
   meta: [
     {
       name: 'description',
-      content: 'F1 Project - Formule 1 / Classement constructeurs',
+      content: 'F1 Project - Formule 1 / #1 Barhein',
     },
   ],
 })
 </script>
 
 <template>
-  <div>
-    <h2>News Formule 1</h2>
-  </div>
+  <h2>Bahrein GP</h2>
 </template>
 
 <style></style>

@@ -11,11 +11,15 @@ useHead({
 <template>
   <div>
     <div
-      class="bg-primary-600 flex flex-col items-center h-32 rounded-2xl sm:flex-row"
+      class="bg-primary-600 flex flex-col items-center xs:h-48 sm:h-32 rounded-2xl sm:flex-row"
     >
       <div class="mt-6 grow pe-6 ps-6 sm:mt-0 sm:pe-0 sm:ps-10">
         <div class="pb-2 text-center sm:pb-0 sm:text-left">
-          <BaseHeading tag="h1" size="3xl" class="text-white opacity-90">
+          <BaseHeading
+            tag="h1"
+            size="3xl"
+            class="text-white opacity-90 uppercase"
+          >
             <span>Bienvenue sur F1 Project</span>
           </BaseHeading>
           <BaseParagraph size="md" class="text-white opacity-70">
@@ -26,10 +30,10 @@ useHead({
           </BaseParagraph>
         </div>
       </div>
-      <div class="relative h-[200px] w-[220px] shrink-0 sm:h-[155px]">
+      <div class="relative h-[250px] w-[270px] shrink-0 sm:h-[240px]">
         <img
           class="pointer-events-none absolute bottom-0 end-6 xs:hidden"
-          src="/img/illustrations/soccer.svg"
+          src="/img/illustrations/formule4.svg"
           alt="Formule 1"
         />
       </div>
@@ -204,7 +208,7 @@ useHead({
                   size="lg"
                   weight="semibold"
                   lead="tight"
-                  class="text-muted-800 dark:text-white"
+                  class="text-muted-800 dark:text-white uppercase"
                 >
                   <span>Classements</span>
                 </BaseHeading>
