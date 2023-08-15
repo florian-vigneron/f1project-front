@@ -169,10 +169,10 @@ useHead({
             </BaseHeading>
           </div>
           <div>
-            <!-- <ArrivalPositionChartLine /> -->
+            <ArrivalPositionChartLine />
           </div>
           <div>
-            <!-- <TotalPointsChartLine /> -->
+            <TotalPointsChartLine />
           </div>
         </div>
       </div>

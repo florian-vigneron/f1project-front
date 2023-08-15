@@ -9,7 +9,7 @@ const breadcrumb = [
   {
     label: 'Saison 2023',
     hideLabel: false,
-    icon: 'ph:question-duotone',
+    icon: 'mdi:go-kart-track',
     to: '/formule1/current-season',
   },
 ]
@@ -30,6 +30,11 @@ useHead({
 
 <template>
   <div>
+    <div class="flex flex-col gap-4">
+      <BaseBreadcrumb :items="breadcrumb">
+        <Icon name="lucide:chevron-right" class="block h-4 w-4" />
+      </BaseBreadcrumb>
+    </div>
     <TairoContentWrapper>
       <div
         class="ltablet:grid-cols-3 grid w-full gap-4 sm:grid-cols-2 lg:grid-cols-3"

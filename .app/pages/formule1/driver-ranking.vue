@@ -1,4 +1,19 @@
 <script setup lang="ts">
+const breadcrumb = [
+  {
+    label: 'Accueil',
+    hideLabel: false,
+    icon: 'lucide:home',
+    to: '/',
+  },
+  {
+    label: 'Classement pilotes',
+    hideLabel: false,
+    icon: 'game-icons:full-motorcycle-helmet',
+    to: '/formule1/driver-ranking',
+  },
+]
+
 definePageMeta({
   title: 'F1 - Classement pilotes',
 })
@@ -15,6 +30,11 @@ useHead({
 
 <template>
   <div>
+    <div class="flex flex-col gap-4">
+      <BaseBreadcrumb :items="breadcrumb">
+        <Icon name="lucide:chevron-right" class="block h-4 w-4" />
+      </BaseBreadcrumb>
+    </div>
     <TairoContentWrapper>
       <div class="space-y-2 pt-6">
         <TransitionGroup

@@ -53,48 +53,51 @@ useHead({
               >
               </TransitionGroup>
               <BaseCard key="0" shape="curved" class="group p-4">
-                <div class="relative overflow-hidden rounded-lg">
-                  <div class="absolute top-3 px-3 flex gap-2">
-                    <BaseTag shape="rounded" color="primary"
-                      >Actualités</BaseTag
-                    >
-                  </div>
-                  <img
-                    src="/img/illustrations/project.jpg"
-                    class="h-96 w-full rounded-lg object-cover transition duration-300 ease-in-out hover:scale-110"
-                  />
-                </div>
-                <div>
-                  <div class="mb-3 mt-3 ml-1">
-                    <BaseHeading
-                      tag="h3"
-                      size="md"
-                      weight="bold"
-                      lead="snug"
-                      class="line-clamp-2 text-gray-800 dark:text-gray-100"
-                    >
-                      F1 : Le projet du Grand Prix des Caraïbes tombé à l’eau ?
-                    </BaseHeading>
-                  </div>
-                  <div class="flex flex-col mt-auto gap-2 ml-1">
-                    <div class="grow">
-                      <h4
-                        class="text-muted-800 dark:text-muted-100 font-sans text-sm font-medium leading-tight"
+                <NuxtLink to="/formule1/details">
+                  <div class="relative overflow-hidden rounded-lg">
+                    <div class="absolute top-3 px-3 flex gap-2">
+                      <BaseTag shape="rounded" color="primary"
+                        >Actualités</BaseTag
                       >
-                        L’ancien pilote de F1, Juan Pablo Montoya, a révélé que
-                        le projet d’organiser un Grand Prix de Formule 1 en
-                        Colombie était sur le point d’être conclu, avant que la
-                        candidature de Madrid ne vienne contrecarrer tous les
-                        plans ...
-                      </h4>
                     </div>
-                    <div class="flex-none">
-                      <p class="text-muted-400 font-sans text-xs">
-                        26/02/2024 - F1Only.fr
-                      </p>
+                    <img
+                      src="/img/illustrations/project.jpg"
+                      class="h-96 w-full rounded-lg object-cover transition duration-300 ease-in-out hover:scale-110"
+                    />
+                  </div>
+                  <div>
+                    <div class="mb-3 mt-3 ml-1">
+                      <BaseHeading
+                        tag="h3"
+                        size="md"
+                        weight="bold"
+                        lead="snug"
+                        class="line-clamp-2 text-gray-800 dark:text-gray-100"
+                      >
+                        F1 : Le projet du Grand Prix des Caraïbes tombé à l’eau
+                        ?
+                      </BaseHeading>
+                    </div>
+                    <div class="flex flex-col mt-auto gap-2 ml-1">
+                      <div class="grow">
+                        <h4
+                          class="text-muted-800 dark:text-muted-100 font-sans text-sm font-medium leading-tight"
+                        >
+                          L’ancien pilote de F1, Juan Pablo Montoya, a révélé
+                          que le projet d’organiser un Grand Prix de Formule 1
+                          en Colombie était sur le point d’être conclu, avant
+                          que la candidature de Madrid ne vienne contrecarrer
+                          tous les plans ...
+                        </h4>
+                      </div>
+                      <div class="flex-none">
+                        <p class="text-muted-400 font-sans text-xs">
+                          26/02/2024 - F1Only.fr
+                        </p>
+                      </div>
                     </div>
                   </div>
-                </div>
+                </NuxtLink>
               </BaseCard>
             </div>
           </TairoContentWrapper>
@@ -112,89 +115,93 @@ useHead({
               >
               </TransitionGroup>
               <BaseCard key="0" shape="curved" class="group p-4">
-                <div class="relative overflow-hidden rounded-lg">
-                  <div class="absolute top-3 px-3 flex gap-2">
-                    <BaseTag shape="rounded" color="primary"
-                      >Actualités</BaseTag
-                    >
-                  </div>
-                  <img
-                    src="/img/illustrations/max.jpg"
-                    class="h-40 w-full rounded-lg object-cover transition duration-300 ease-in-out hover:scale-110"
-                  />
-                </div>
-                <div>
-                  <div class="mb-3 mt-3 ml-1">
-                    <BaseHeading
-                      tag="h3"
-                      size="md"
-                      weight="bold"
-                      lead="snug"
-                      class="line-clamp-2 text-gray-800 dark:text-gray-100"
-                    >
-                      F1 : Pour Massa, Verstappen va tout gagner jusqu’en 2026
-                    </BaseHeading>
-                  </div>
-                  <div class="flex flex-col mt-auto gap-2 ml-1">
-                    <div class="grow">
-                      <h4
-                        class="text-muted-800 dark:text-muted-100 font-sans text-sm font-medium leading-tight"
+                <NuxtLink to="/formule1/details">
+                  <div class="relative overflow-hidden rounded-lg">
+                    <div class="absolute top-3 px-3 flex gap-2">
+                      <BaseTag shape="rounded" color="primary"
+                        >Actualités</BaseTag
                       >
-                        Pour l’ancien pilote de F1, Felipe Massa, le double
-                        champion du monde Max Verstappen va très certainement
-                        remporter tous les titres mondiaux jusqu’en 2026 ...
-                      </h4>
                     </div>
-                    <div class="flex-none">
-                      <p class="text-muted-400 font-sans text-xs">
-                        26/02/2024 - F1Only.fr
-                      </p>
+                    <img
+                      src="/img/illustrations/max.jpg"
+                      class="h-40 w-full rounded-lg object-cover transition duration-300 ease-in-out hover:scale-110"
+                    />
+                  </div>
+                  <div>
+                    <div class="mb-3 mt-3 ml-1">
+                      <BaseHeading
+                        tag="h3"
+                        size="md"
+                        weight="bold"
+                        lead="snug"
+                        class="line-clamp-2 text-gray-800 dark:text-gray-100"
+                      >
+                        F1 : Pour Massa, Verstappen va tout gagner jusqu’en 2026
+                      </BaseHeading>
+                    </div>
+                    <div class="flex flex-col mt-auto gap-2 ml-1">
+                      <div class="grow">
+                        <h4
+                          class="text-muted-800 dark:text-muted-100 font-sans text-sm font-medium leading-tight"
+                        >
+                          Pour l’ancien pilote de F1, Felipe Massa, le double
+                          champion du monde Max Verstappen va très certainement
+                          remporter tous les titres mondiaux jusqu’en 2026 ...
+                        </h4>
+                      </div>
+                      <div class="flex-none">
+                        <p class="text-muted-400 font-sans text-xs">
+                          26/02/2024 - F1Only.fr
+                        </p>
+                      </div>
                     </div>
                   </div>
-                </div>
+                </NuxtLink>
               </BaseCard>
               <BaseCard key="1" shape="curved" class="group p-4">
-                <div class="relative overflow-hidden rounded-lg">
-                  <div class="absolute top-3 px-3 flex gap-2">
-                    <BaseTag shape="rounded" color="primary"
-                      >Actualités</BaseTag
-                    >
-                  </div>
-                  <img
-                    src="/img/illustrations/andretti.jpg"
-                    class="h-40 w-full rounded-lg object-cover transition duration-300 ease-in-out hover:scale-110"
-                  />
-                </div>
-                <div>
-                  <div class="mb-3 mt-3 ml-1">
-                    <BaseHeading
-                      tag="h3"
-                      size="md"
-                      weight="bold"
-                      lead="snug"
-                      class="line-clamp-2 text-gray-800 dark:text-gray-100"
-                    >
-                      F1 : Andretti-Cadillac attend une réponse de la FIA en
-                      septembre
-                    </BaseHeading>
-                  </div>
-                  <div class="flex flex-col mt-auto gap-2 ml-1">
-                    <div class="grow">
-                      <h4
-                        class="text-muted-800 dark:text-muted-100 font-sans text-sm font-medium leading-tight"
+                <NuxtLink to="/formule1/details">
+                  <div class="relative overflow-hidden rounded-lg">
+                    <div class="absolute top-3 px-3 flex gap-2">
+                      <BaseTag shape="rounded" color="primary"
+                        >Actualités</BaseTag
                       >
-                        Mario Andretti admet qu’il n’y a rien d’autre à faire
-                        que d’attendre une potentielle réponse positive de la
-                        part ...
-                      </h4>
                     </div>
-                    <div class="flex-none">
-                      <p class="text-muted-400 font-sans text-xs">
-                        02/03/2024 - F1Only.fr
-                      </p>
+                    <img
+                      src="/img/illustrations/andretti.jpg"
+                      class="h-40 w-full rounded-lg object-cover transition duration-300 ease-in-out hover:scale-110"
+                    />
+                  </div>
+                  <div>
+                    <div class="mb-3 mt-3 ml-1">
+                      <BaseHeading
+                        tag="h3"
+                        size="md"
+                        weight="bold"
+                        lead="snug"
+                        class="line-clamp-2 text-gray-800 dark:text-gray-100"
+                      >
+                        F1 : Andretti-Cadillac attend une réponse de la FIA en
+                        septembre
+                      </BaseHeading>
+                    </div>
+                    <div class="flex flex-col mt-auto gap-2 ml-1">
+                      <div class="grow">
+                        <h4
+                          class="text-muted-800 dark:text-muted-100 font-sans text-sm font-medium leading-tight"
+                        >
+                          Mario Andretti admet qu’il n’y a rien d’autre à faire
+                          que d’attendre une potentielle réponse positive de la
+                          part ...
+                        </h4>
+                      </div>
+                      <div class="flex-none">
+                        <p class="text-muted-400 font-sans text-xs">
+                          02/03/2024 - F1Only.fr
+                        </p>
+                      </div>
                     </div>
                   </div>
-                </div>
+                </NuxtLink>
               </BaseCard>
             </div>
           </TairoContentWrapper>
@@ -230,7 +237,7 @@ useHead({
               >
                 <template #tab="{ activeValue }">
                   <div v-if="activeValue === 'drivers'">
-                    <div class="mb-6 flex items-center justify-between">
+                    <div class="mb-2 flex items-center justify-between">
                       <div class="text-3xl w-8 text-primary-500 text-center">
                         1
                       </div>
@@ -252,7 +259,7 @@ useHead({
                         <span>245</span>
                       </div>
                     </div>
-                    <div class="mb-6 flex items-center justify-between">
+                    <div class="mb-2 flex items-center justify-between">
                       <div class="text-3xl w-8 text-primary-500 text-center">
                         2
                       </div>
@@ -277,7 +284,7 @@ useHead({
                   </div>
 
                   <div v-else-if="activeValue === 'contructors'">
-                    <div class="mb-6 flex items-center justify-between">
+                    <div class="mb-2 flex items-center justify-between">
                       <div class="text-3xl w-8 text-primary-500 text-center">
                         1
                       </div>
@@ -296,7 +303,7 @@ useHead({
                         <span>321</span>
                       </div>
                     </div>
-                    <div class="mb-6 flex items-center justify-between">
+                    <div class="mb-2 flex items-center justify-between">
                       <div class="text-3xl w-8 text-primary-500 text-center">
                         2
                       </div>

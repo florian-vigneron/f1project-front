@@ -9,7 +9,7 @@ const breadcrumb = [
   {
     label: 'Les pilotes',
     hideLabel: false,
-    icon: 'ph:question-duotone',
+    icon: 'material-symbols:groups',
     to: '/formule1/drivers',
   },
 ]

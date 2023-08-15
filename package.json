@@ -18,6 +18,7 @@
   "dependencies": {
     "@cssninja/nuxt-toaster": "^0.3.12",
     "@shuriken-ui/nuxt": "^0.3.1",
+    "apexcharts": "^3.41.1",
     "core-js": "^3.27.2",
     "eslint": "8.41.0",
     "eslint-config-prettier": "8.8.0",
@@ -36,6 +37,7 @@
     "tailwindcss": "3.3.2",
     "typescript": "5.0.4",
     "unplugin-fonts": "^1.0.3",
-    "vue-tsc": "1.6.5"
+    "vue-tsc": "1.6.5",
+    "vue3-apexcharts": "^1.4.4"
   }
 }
