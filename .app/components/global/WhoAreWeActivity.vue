@@ -31,7 +31,10 @@ const activeTab = ref('tab-1')
           <div
             class="relative inline-flex h-9 w-9 items-center justify-center rounded-full"
           >
-            <Icon name="ph:question-duotone" class="h-10 w-10 text-rose-400" />
+            <Icon
+              name="ph:question-duotone"
+              class="h-10 w-10 text-primary-400"
+            />
           </div>
           <div class="ms-3">
             <h6
@@ -59,7 +62,7 @@ const activeTab = ref('tab-1')
           >
             <Icon
               name="ph:mask-happy-duotone"
-              class="h-10 w-10 text-rose-400"
+              class="h-10 w-10 text-primary-400"
             />
           </div>
           <div class="ms-3">

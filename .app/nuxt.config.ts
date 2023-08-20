@@ -18,4 +18,18 @@ export default defineNuxtConfig({
      */
     '../layers/tairo-layout-collapse',
   ],
+  unfonts: {
+    // This uses google fonts, but you can use
+    // any other provider supported by unplugin-fonts
+    google: {
+      families: [
+        'Roboto Flex',
+        'Inter',
+        'Karla',
+        'Fira Code',
+        'Racing Sans One',
+        'Saira Stencil One',
+      ],
+    },
+  },
 })

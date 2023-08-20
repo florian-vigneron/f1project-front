@@ -12,11 +12,12 @@ export default withShurikenUI({
   theme: {
     // Custom fonts (defaults values are commented out)
     fontFamily: {
-      sans: ['Roboto Flex', 'sans-serif'],
-      heading: ['Inter', 'sans-serif'],
-      alt: ['Karla', 'sans-serif'],
+      sans: ['Inter', 'sans-serif'],
+      heading: ['Saira Stencil One', 'sans-serif'],
+      alt: ['Inter', 'sans-serif'],
       mono: [
         'ui-monospace',
+        'Syne',
         'SFMono-Regular',
         'Menlo',
         'Monaco',
@@ -29,7 +30,7 @@ export default withShurikenUI({
     extend: {
       // Custom colors
       colors: {
-        primary: colors.rose,
+        primary: colors.sky,
         muted: colors.gray,
         // info: colors.sky,
         // success: colors.teal,
@@ -38,5 +39,4 @@ export default withShurikenUI({
       },
     },
   },
-  plugins: [],
 })

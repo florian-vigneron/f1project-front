@@ -11,16 +11,16 @@ useHead({
 <template>
   <div>
     <div
-      class="bg-primary-600 flex flex-col items-center xs:h-48 sm:h-32 rounded-2xl sm:flex-row"
+      class="bg-gradient-to-r from-primary-600 flex flex-col items-center xs:h-48 sm:h-32 rounded-2xl sm:flex-row"
     >
       <div class="mt-6 grow pe-6 ps-6 sm:mt-0 sm:pe-0 sm:ps-10">
-        <div class="pb-2 text-center sm:pb-0 sm:text-left">
+        <div class="text-center sm:text-left">
           <BaseHeading
             tag="h1"
             size="3xl"
-            class="text-white opacity-90 uppercase"
+            class="text-white opacity-90 uppercase text-5xl"
           >
-            <span>Bienvenue sur F1 Project</span>
+            <span>F1 Project</span>
           </BaseHeading>
           <BaseParagraph size="md" class="text-white opacity-70">
             <span>

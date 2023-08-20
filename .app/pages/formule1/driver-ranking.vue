@@ -7,7 +7,7 @@ const breadcrumb = [
     to: '/',
   },
   {
-    label: 'Classement pilotes',
+    label: 'F1 - Classement pilotes',
     hideLabel: false,
     icon: 'game-icons:full-motorcycle-helmet',
     to: '/formule1/driver-ranking',

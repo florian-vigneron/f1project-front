@@ -48,10 +48,10 @@ useHead({
           <Icon name="lucide:chevron-right" class="block h-4 w-4" />
         </BaseBreadcrumb>
       </div>
-      <div class="grid grid-cols-12 gap-6">
+      <div class="grid grid-cols-12 gap-2">
         <div class="ltablet:col-span-6 col-span-12 lg:col-span-6">
           <TairoContentWrapper>
-            <div class="space-y-5 px-6 py-4">
+            <div class="space-y-5 px-6 py-3">
               <div class="flex items-center justify-between">
                 <BaseHeading
                   as="h5"
